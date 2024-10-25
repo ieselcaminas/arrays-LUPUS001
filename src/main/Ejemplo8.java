@@ -22,7 +22,10 @@ public class Ejemplo8 {
     public static void main(String[] args) {
         int [] numeros = {12, 34, -23, -6, 34, -8, 12, -5, 34, -1};
 
-        System.out.println("La suma de todos los positivos es " + positivosSuma(numeros));
-        System.out.println("La suma de todos los negativos es " + negativosSuma(numeros));
+        int suma = positivosSuma(numeros);
+        int resta = negativosSuma(numeros);
+
+        System.out.println("La suma de todos los positivos es " + suma);
+        System.out.println("La suma de todos los negativos es " + resta);
     }
 }
