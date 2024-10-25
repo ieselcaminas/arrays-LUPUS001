@@ -1,3 +1,5 @@
+package main;
+
 public class Ejemplo4 {
     public static void main(String[] args) {
         int[] numeros = {3, 5, 6 ,7, 9 ,10, 8 ,8, 0 ,10};
