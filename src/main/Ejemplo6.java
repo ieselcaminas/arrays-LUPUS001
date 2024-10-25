@@ -1,6 +1,6 @@
 package main;
 
-public class Ejercicio6 {
+public class Ejemplo6 {
     public static int menorNumero(int numero[]){
         int minimo = numero[1];
         for (int i = 0; i < numero.length; i++) {

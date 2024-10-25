@@ -1,6 +1,6 @@
 package main;
 
-public class Ejercicio5 {
+public class Ejemplo5 {
     public static int mayorNumero(int mayor){
         int numeros[] = {1, 2, 3, 4, 5, 6, 7, 14, 9, 10};
 
