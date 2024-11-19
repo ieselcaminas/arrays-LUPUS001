@@ -2,7 +2,7 @@ package main;
 
 public class Ejemplo6 {
     public static int menorNumero(int numero[]){
-        int minimo = numero[1];
+        int minimo = numero[0];
         for (int i = 0; i < numero.length; i++) {
             if (numero[i] < minimo){
                 minimo = numero[i];
